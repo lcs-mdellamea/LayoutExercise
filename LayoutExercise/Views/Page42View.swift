@@ -20,7 +20,7 @@ struct ContentView: View {
                             .fontWeight(.heavy)
                             .font(Font.custom("Times New Roman", size: 20))
                         HStack {
-                            Text("Hdsczczldkcxdfvkxbfjhvbxjfbvjxdbhfvjbsjdfbcjshzbdjcbzjxchzjcxbhjczhbjdhbcjzhbjhbjbhjzhbdjcsdfvszdfvdcdczfvdfvsd.")
+                            Text("Hdsczczldkcxdfvkxbfjhvbxjfbvjxdbhfvjbsjdfbcjshzbdjcbzjxchzjcxbhjczhbjdhbcjzhbjhbjbhjzhbdjcsdfvszdfvdcdczfvdfvsdddsfsdfsdfrfvsdf.")
                                 .font(Font.custom("Avenir Next", size: 12)
                                 .weight(.regular))
                                 .frame(width:150)
