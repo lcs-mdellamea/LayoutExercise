@@ -32,7 +32,7 @@ struct Page42View: View {
                 .fixedSize(horizontal:false, vertical:true)
                 .frame(width:100,height:150)
                 .font(Font.custom("Helvetica Neue", size:15))
-                .position(x:53, y:180)
+                .position(x:53, y:177)
             AsyncImage(url: URL(string:
                 "https://placekitten.com/100/150"))
                 .scaledToFit()
