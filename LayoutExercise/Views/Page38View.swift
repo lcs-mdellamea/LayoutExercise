@@ -26,13 +26,14 @@ struct Page42View: View {
                 .font(Font.custom("Helvetica Neue", size:15))
                 .position(x:50, y:128)
         }
+            
         HStack {
-            Text("ndkjbzjdvbdjzhdbvjsdhbvjzhbdjvbhjzdczdsvzdfvxdfvfvdfvdfvsdfvsdfvsfdvsdfvsdfvsdfvsdfvsdfv")
-                .frame(width:200,height:150)
+            Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus semper eget duis at tellus. In hendrerit gravida rutrum quisque non. Viverra nam.")
+                .frame(width:100,height:150)
                 .font(Font.custom("Helvetica Neue", size:15))
-                .position(x:50, y:450)
-                
+                .position(x:50, y:50)
         }
+        
         .navigationTitle("Page42")
     }
 }
