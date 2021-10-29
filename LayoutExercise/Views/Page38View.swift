@@ -26,15 +26,12 @@ struct Page42View: View {
                 .font(Font.custom("Helvetica Neue", size:15))
                 .position(x:50, y:128)
         }
-            VStack(alignment:.leading){
-            HStack{
+        HStack {
             Text("ndkjbzjdvbdjzhdbvjsdhbvjzhbdjvbhjzdczdsvzdfvxdfvfvdfvdfvsdfvsdfvsfdvsdfvsdfvsdfvsdfvsdfv")
                 .frame(width:200,height:150)
                 .font(Font.custom("Helvetica Neue", size:15))
                 .position(x:50, y:450)
-                //.position(x:158, y:50)
                 
-            }
         }
         .navigationTitle("Page42")
     }
