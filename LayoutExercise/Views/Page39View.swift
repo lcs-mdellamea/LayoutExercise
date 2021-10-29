@@ -16,12 +16,12 @@ struct Page39View: View {
                     .fixedSize(horizontal:false, vertical:true)
                     .font(Font.custom("Helvetica Neue", size:28))
                     .frame(width:140,height:100)
-                    .position(x: 70, y: 220)
+                    .position(x: 70, y: 230)
                 AsyncImage(url: URL(string:
                     "https://placekitten.com/200/280"))
                     .scaledToFit()
                     .frame(width:200,height:280)
-                    .position(x:100, y:100)
+                    .position(x:100, y:90)
             }
             HStack {
                 Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore hendrerit gravida rutrum magna aliqua. Purus semper eget duis at tellus. In hendrerit gravida rutrum quisque non. Viverra nam.In hendrerit gravida rutrum quisque nonm. Do eiusmod tempor incididunt ut labore hendrerit gravida rutrum magna aliqua. Purus semper eget duis at tellus. In hendrerit gravida rutrum quisque non. Nam.In hendrerit gravida rutrum quisque non. Viverra nam.")
