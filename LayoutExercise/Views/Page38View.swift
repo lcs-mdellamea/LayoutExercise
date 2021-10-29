@@ -37,8 +37,15 @@ struct Page42View: View {
                 "https://placekitten.com/100/150"))
                 .scaledToFit()
                 .frame(width:100,height:150)
-                .position(x:-10, y:50)
+                .position(x:-10, y:45)
         }
+            HStack {
+                Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus semper eget duis at tellus. In hendrerit gravida.")
+                    .fixedSize(horizontal:false, vertical:true)
+                    .frame(width:100,height:150)
+                    .font(Font.custom("Helvetica Neue", size:15))
+                    .position(x:160, y:95)
+            }
         
         .navigationTitle("Page42")
     }
