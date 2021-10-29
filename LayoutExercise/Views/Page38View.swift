@@ -28,10 +28,16 @@ struct Page42View: View {
         }
             
         HStack {
-            Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus semper eget duis at tellus. In hendrerit gravida rutrum quisque non. Viverra nam.")
+            Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus semper eget duis at tellus. In hendrerit gravida rutrum quisque non. Viverra nam.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.")
+                .fixedSize(horizontal:false, vertical:true)
                 .frame(width:100,height:150)
                 .font(Font.custom("Helvetica Neue", size:15))
-                .position(x:50, y:50)
+                .position(x:53, y:180)
+            AsyncImage(url: URL(string:
+                "https://placekitten.com/100/150"))
+                .scaledToFit()
+                .frame(width:100,height:150)
+                .position(x:-10, y:50)
         }
         
         .navigationTitle("Page42")
