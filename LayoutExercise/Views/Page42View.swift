@@ -66,7 +66,7 @@ struct ContentView: View {
             }
         }
         //.edgesIgnoringSafeArea(.all)
-        //.navigationTitle("")
+        .navigationTitle("Page42")
     }
 }
 
